@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "QLNS2", "QLNS2\", "{26BCC350-3781-4FC5-B1CA-C405B0D99AA6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60925"
+		Debug.AspNetCompiler.PhysicalPath = "QLNS2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60925\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60925"
+		Release.AspNetCompiler.PhysicalPath = "QLNS2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60925\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60925"
+		SlnRelativePath = "QLNS2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{420AD945-0FC8-4AA9-A6DA-7B283E1C87FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26BCC350-3781-4FC5-B1CA-C405B0D99AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BCC350-3781-4FC5-B1CA-C405B0D99AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CAABB00-2272-4501-9689-954FF034CCFD}
+	EndGlobalSection
+EndGlobal

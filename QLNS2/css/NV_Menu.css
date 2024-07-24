@@ -1,0 +1,107 @@
+﻿body {
+}
+menu-item1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu-item1.menu-item-animating1 {
+    transition: height 0.3s ease-in-out;
+}
+.menu-inner1 > .menu-item1.active > .menu-link {
+    color: #ffab00;
+    background-color: #fff2d6;
+    border-color: rgba(0, 0, 0, 0);
+}
+    .menu-item1, .menu-header1, .menu-divider1, .menu-block1 {
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-header1 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-icon1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.menu:not(.menu-no-animation) .menu-icon {
+    transition: margin-right 0.3s ease;
+}
+
+.menu-link1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+    margin: 0;
+}
+
+.menu-item1.disabled .menu-link {
+    cursor: not-allowed !important;
+}
+
+.menu:not(.menu-no-animation) .menu-link1 {
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+.menu-link1 > :not(.menu-icon) {
+    flex: 0 1 auto;
+    opacity: 1;
+}
+
+.menu:not(.menu-no-animation) .menu-link > :not(.menu-icon) {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-sub1 {
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.menu:not(.menu-no-animation) .menu-sub1 {
+    transition: background-color 0.3s;
+}
+
+.menu-item1.open > .menu-sub1 {
+    display: flex;
+}
+
+.menu-toggle1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 0.42em;
+    height: 0.42em;
+    border: 1px solid;
+    border-bottom: 0;
+    border-left: 0;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.menu-item1.open:not(.menu-item-closing1) > .menu-toggle1::after {
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.menu:not(.menu-no-animation1) .menu-toggle1::after {
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.menu-divider1 {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid;
+}
